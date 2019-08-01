@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "a22917571f5eb5f0fd6cf240145624c3"
+build_time: [1564588459, 550736000]
+inputs:
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/ViewController.swift": [1564588445, 226106741]
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/AppDelegate.swift": [1564588445, 219842192]

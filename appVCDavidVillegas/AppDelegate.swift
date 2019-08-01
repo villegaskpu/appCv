@@ -15,7 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+        let collectionViewLayaout = UICollectionViewFlowLayout()
+        collectionViewLayaout.scrollDirection = .horizontal
+        
+        let swController = SWController(collectionViewLayout: collectionViewLayaout)
+        window?.rootViewController = swController
         return true
     }
 

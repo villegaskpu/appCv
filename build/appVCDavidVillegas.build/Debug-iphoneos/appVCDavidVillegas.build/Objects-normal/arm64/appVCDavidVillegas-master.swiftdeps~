@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "2ae04bf89db3274fa2730aadfbcccc11"
+build_time: [1564691162, 982629000]
+inputs:
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/ViewController.swift": [1564670787, 523915415]
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/Commos.swift": [1564672881, 739994137]
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/SWContoller.swift": !dirty [1564691161, 509725473]
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/PageCell.swift": [1564683714, 221908359]
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/AppDelegate.swift": [1564606290, 335627289]
+  "/Users/david/proyectosXcode/appVCDavidVillegas/appVCDavidVillegas/Page.swift": [1564680972, 617448450]

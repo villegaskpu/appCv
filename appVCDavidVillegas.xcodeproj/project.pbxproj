@@ -12,6 +12,10 @@
 		632B469E22F1F11D0099A5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632B469C22F1F11D0099A5C3 /* Main.storyboard */; };
 		632B46A022F1F1240099A5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632B469F22F1F1240099A5C3 /* Assets.xcassets */; };
 		632B46A322F1F1240099A5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632B46A122F1F1240099A5C3 /* LaunchScreen.storyboard */; };
+		6378540022F2332000AE9F42 /* SWContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637853FF22F2332000AE9F42 /* SWContoller.swift */; };
+		6378540222F2385400AE9F42 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378540122F2385400AE9F42 /* PageCell.swift */; };
+		6378540422F247B700AE9F42 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378540322F247B700AE9F42 /* Page.swift */; };
+		6378540622F338D000AE9F42 /* Commos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378540522F338D000AE9F42 /* Commos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		632B469F22F1F1240099A5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		632B46A222F1F1240099A5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		632B46A422F1F1240099A5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637853FF22F2332000AE9F42 /* SWContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWContoller.swift; sourceTree = "<group>"; };
+		6378540122F2385400AE9F42 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		6378540322F247B700AE9F42 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		6378540522F338D000AE9F42 /* Commos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				632B469822F1F11D0099A5C3 /* AppDelegate.swift */,
 				632B469A22F1F11D0099A5C3 /* ViewController.swift */,
+				637853FF22F2332000AE9F42 /* SWContoller.swift */,
+				6378540122F2385400AE9F42 /* PageCell.swift */,
+				6378540322F247B700AE9F42 /* Page.swift */,
 				632B469C22F1F11D0099A5C3 /* Main.storyboard */,
 				632B469F22F1F1240099A5C3 /* Assets.xcassets */,
 				632B46A122F1F1240099A5C3 /* LaunchScreen.storyboard */,
 				632B46A422F1F1240099A5C3 /* Info.plist */,
+				6378540522F338D000AE9F42 /* Commos.swift */,
 			);
 			path = appVCDavidVillegas;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				632B469B22F1F11D0099A5C3 /* ViewController.swift in Sources */,
+				6378540622F338D000AE9F42 /* Commos.swift in Sources */,
+				6378540022F2332000AE9F42 /* SWContoller.swift in Sources */,
+				6378540222F2385400AE9F42 /* PageCell.swift in Sources */,
 				632B469922F1F11D0099A5C3 /* AppDelegate.swift in Sources */,
+				6378540422F247B700AE9F42 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9WY3RJPD5;
 				INFOPLIST_FILE = appVCDavidVillegas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9WY3RJPD5;
 				INFOPLIST_FILE = appVCDavidVillegas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
